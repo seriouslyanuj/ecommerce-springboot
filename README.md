@@ -20,7 +20,6 @@ A simple Spring Boot-based REST API for managing products in an e-commerce syste
 - Spring Data JPA
 - PostgreSQL
 - Maven
-- Swagger (optional)
 - Postman (for testing)
 
 ---
