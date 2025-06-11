@@ -27,6 +27,17 @@ A simple Spring Boot-based REST API for managing products in an e-commerce syste
 ## 🧪 How to Run Locally
 
 1. Clone the repository  
-   ```bash
    git clone https://github.com/yourusername/ecommerce-springboot.git
    cd ecommerce-springboot
+2. Create a PostgreSQL database (e.g., ecommerce_db)
+
+3. Update application.properties:
+
+   properties
+   spring.datasource.url=jdbc:postgresql://localhost:5432/ecommerce_db
+   spring.datasource.username=your_db_user
+   spring.datasource.password=your_db_password
+   spring.jpa.hibernate.ddl-auto=update
+   
+4. Run the project:
+   mvn spring-boot:run
